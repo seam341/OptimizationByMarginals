@@ -13,21 +13,21 @@ In microeconomics, firms can optimize production by identifying the point where 
 ### The Quilter
 A quilter uses balls of yarn to vary the number of quilts they produce each week and can only purchase and use one ball of yarn at a time. They want to find out what the optimal amount of production is when they purchase one to six balls of yarn. When prompted for the total cost and total profit the following information:
 
-| Total Cost | Total Profit |
-| ---------- | ------------ |
-| $1.00      | $10.00       |
-| $2.00      | $16.00       |
-| $3.00      | $18.00       |
-| $4.00      | $19.00       |
-| $5.00      | $19.00       |
-| $6.00      | $18.00       |
+| Total Cost | Total Revenue |
+| ---------- | ------------- |
+| $1.00      | $10.00        |
+| $2.00      | $16.00        |
+| $3.00      | $18.00        |
+| $4.00      | $19.00        |
+| $5.00      | $19.00        |
+| $6.00      | $18.00        |
 
 The program should show that the optimal level of production occurs at four balls of yarn.
 
 ### The Factory
 A factory uses the number of hours worked by their manufacturing crew to vary the number of cars they produce each day. The factory manager can only change the number hours by fifty each time. Currently, the factory can accomidate a staff working 100 hours and at max 350 hours. When prompted for the total cost and total profit the following information:
 
-| Total Cost     | Total Profit     |
+| Total Cost     | Total Revenue    |
 | -------------- | ---------------- |
 | $5,000.00      | $10,000.00       |
 | $6,500.00      | $14,000.00       |
@@ -37,3 +37,8 @@ A factory uses the number of hours worked by their manufacturing crew to vary th
 | $12,500.00     | $22,000.00       |
 
 The program should show that the optimal level of production occurs at 300 hours of labor.
+
+## Things to Work On
+1. Prompt the user to include fixed costs of production
+2. Create a message to notify if the interval does not have a perfect optimum (where marginal costs do not equal marginal revenue)
+3. Create a message to notify if the amount of production yields a positive nor negative profit
